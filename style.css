@@ -32,6 +32,14 @@ header{
     font-size: 20px;
 }
 
+.icone-menu{
+    height: 40px;
+}
+
+#barras {
+    display: none;
+}
+
 .menu{
     width: 686px;
     display: flex;
@@ -285,4 +293,37 @@ footer {
 .siga-nos h2{
     font-family: "Titillium Web";
     font-size: 23px;
+}
+
+@media screen and (max-width: 1200px){
+    .container-grid{
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        top: 91px;
+        right: 0px;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: #1e1c21;
+        height: 400px;
+    }
+}
+
+.menu a{
+    font-size: 20px;
+}
+
+.cabecalho{
+    position: relative;
 }
