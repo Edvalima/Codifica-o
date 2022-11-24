@@ -49,10 +49,21 @@ header{
 
 .banner{
     height: 604px;
-    background-image:url(img/Banner.png.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner-f1{
+    background-image:url(img/Banner.png.png);
+}
+
+.banner-cs{
+    background-image:url(img/banner_cs.png);
+}
+    
+.banner-lol{
+    background-image:url(img/banner_lol.png);
 }
 
 .conteudo-banner h1{
@@ -322,6 +333,10 @@ footer {
 
 .menu a{
     font-size: 20px;
+}
+
+.menu-ativo{
+    display: flex;
 }
 
 .cabecalho{
